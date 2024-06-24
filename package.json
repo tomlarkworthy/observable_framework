@@ -6,12 +6,15 @@
     "build": "rimraf dist && observable build",
     "dev": "observable preview",
     "deploy": "observable deploy",
-    "observable": "observable"
+    "observable": "observable",
+    "index": "npx tsx src/notebook_reader/index.ts"
   },
   "dependencies": {
     "@observablehq/framework": "^1.9.0",
     "d3-dsv": "^3.0.1",
-    "d3-time-format": "^4.1.0"
+    "d3-time-format": "^4.1.0",
+    "duckdb": "^1.0.0",
+    "func-loc": "^0.1.16"
   },
   "devDependencies": {
     "rimraf": "^5.0.5"
